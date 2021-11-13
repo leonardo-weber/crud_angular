@@ -1,0 +1,17 @@
+.card {
+    height: 75vh;
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+button {
+    margin-right: 20px;
+}
+
+input {
+    padding: 10px;
+}

@@ -1,0 +1,16 @@
+<mat-card class = 'card'>
+    <mat-card-title> Atualização dos dados cadastrados  </mat-card-title>
+    <br>
+    <hr>
+    <form>
+        <mat-form-field>
+            <input matInput name = "name" [(ngModel)] = "products.name" placeholder="Nome do produto">
+        </mat-form-field>
+        <mat-form-field>
+            <input matInput name = "price" [(ngModel)] = "products.price" placeholder="Preço do produto">
+        </mat-form-field>
+    </form>
+
+    <button mat-raised-button color = 'primary' (click) = "update()"> Atualizar </button>
+    <button mat-raised-button color = 'secundary' routerLink = '/products'> Cancelar </button>
+</mat-card>

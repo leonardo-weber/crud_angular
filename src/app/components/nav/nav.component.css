@@ -1,0 +1,17 @@
+.sidenav {
+    width: 200px;
+    background-color: #898980;
+}
+
+.sidenav a {
+    color: black;
+    font-size: 1.2rem;
+}
+
+.list-item:hover {
+    background-color: darkslategray;
+}
+
+.content {
+    padding: 20px;
+}

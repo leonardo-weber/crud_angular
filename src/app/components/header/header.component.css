@@ -1,0 +1,16 @@
+.header {
+    display: flex;
+    height: 80px;
+    align-items: center;
+    background-color: #A9B2AC;
+    color: black;
+}
+
+.header i {
+    margin: 8px 10px 0px 30px;
+}
+
+
+
+
+

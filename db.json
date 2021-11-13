@@ -1,0 +1,19 @@
+{
+  "products": [
+    {
+      "name": "Banana",
+      "price": "5000",
+      "id": 2
+    },
+    {
+      "name": "",
+      "price": null,
+      "id": 3
+    },
+    {
+      "name": "",
+      "price": null,
+      "id": 4
+    }
+  ]
+}
